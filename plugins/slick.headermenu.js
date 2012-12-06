@@ -73,7 +73,7 @@
    *
    * @param options {Object} Options:
    *    buttonCssClass:   an extra CSS class to add to the menu button
-   *    buttonImage:      a url to the menu button image (default '../images/down.gif')
+   *    buttonImage:      a url to the menu button image (default '++resource++slickgrid-images/down.gif')
    * @class Slick.Plugins.HeaderButtons
    * @constructor
    */
@@ -83,7 +83,7 @@
     var _handler = new Slick.EventHandler();
     var _defaults = {
       buttonCssClass: null,
-      buttonImage: "../images/down.gif"
+      buttonImage: "++resource++slickgrid-images/down.gif"
     };
     var $menu;
     var $activeHeaderColumn;
