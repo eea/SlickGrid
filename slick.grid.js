@@ -656,6 +656,7 @@ if (typeof Slick === "undefined") {
         cursor: "default",
         tolerance: "intersection",
         helper: "clone",
+        delay: 300,
         placeholder: "slick-sortable-placeholder ui-state-default slick-header-column",
         forcePlaceholderSize: true,
         start: function (e, ui) {
