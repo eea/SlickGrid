@@ -178,7 +178,9 @@
     this.destroy = function () {
       $.datepicker.dpDiv.stop(true, true);
       $input.datepicker("hide");
-      $input.datepicker("destroy");
+      try{
+          $input.datepicker("destroy");
+      }catch(err){}
       $input.remove();
     };
 
